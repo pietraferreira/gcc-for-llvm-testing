@@ -1,5 +1,6 @@
 /* { dg-do run } */
 /* { dg-options "-O2 -funswitch-loops" } */
+/* { dg-require-effective-target not_llvm } */
 
 #include <stdlib.h>
 __attribute__ ((noinline))

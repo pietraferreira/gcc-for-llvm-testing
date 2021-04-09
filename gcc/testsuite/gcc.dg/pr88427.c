@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fno-tree-dce -fno-tree-fre -Wno-div-by-zero" } */
+/* { dg-require-effective-target not_llvm } */
 
 void
 uj (int eq, int s4)

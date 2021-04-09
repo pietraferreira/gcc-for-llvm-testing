@@ -1,6 +1,7 @@
 /* PR debug/94283 */
 /* { dg-do compile } */
 /* { dg-options "-O3 -fno-tree-dce -fcompare-debug" } */
+/* { dg-require-effective-target not_llvm } */
 
 void
 foo (int *n)

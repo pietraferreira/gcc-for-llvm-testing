@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O -funswitch-loops" } */
+/* { dg-require-effective-target not_llvm } */
 
 void
 jh (unsigned int aw, int sn)
